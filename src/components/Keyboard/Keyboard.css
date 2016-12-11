@@ -6,12 +6,12 @@
   flex-direction: row;
   margin: 0 auto;
   align-items: center;
+  justify-content: center;
 }
 .keyboard__key {
-  flex: 0 0 3.5rem;
+  flex: 0 0 auto;
   position: relative;
   margin: 0.5rem;
-  width: 3.5rem;
   height: 3.5rem;
   text-align: center;
   border: 1px solid rgba(173, 173, 173, 0.2);
@@ -31,19 +31,19 @@
 
 }
 .keyboard__key__label--left-top {
-  top: 15%;
-  left: 15%;
+  top: 13%;
+  left: 13%;
 }
 .keyboard__key__label--left-middle {
   top: 33%;
-  left: 15%;
+  left: 13%;
 }
 .keyboard__key__label--left-bottom {
-  bottom: 15%;
-  left: 15%;
+  bottom: 13%;
+  left: 13%;
 }
 .keyboard__key__label--center-top {
-  top: 15%;
+  top: 13%;
   left: 33%;
 }
 .keyboard__key__label--center-middle {
@@ -51,19 +51,19 @@
   left: 33%;
 }
 .keyboard__key__label--center-bottom {
-  bottom: 15%;
+  bottom: 13%;
   left: 33%;
 }
 .keyboard__key__label--right-top {
-  top: 15%;
-  right: 15%;
+  top: 13%;
+  right: 13%;
 }
 .keyboard__key__label--right-middle {
   top: 33%;
-  right: 15%;
+  right: 13%;
 }
 .keyboard__key__label--right-bottom {
-  bottom: 15%;
-  right: 15%;
+  bottom: 13%;
+  right: 13%;
 }
 

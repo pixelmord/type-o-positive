@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import keydown from 'react-keydown';
 
-import logo from '../logo.svg';
+import keyboard from '../keyboard.svg';
 import './App.css';
 import Keyboard from '../components/Keyboard/Keyboard';
 
@@ -21,8 +21,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <img src={keyboard} className="App-logo" alt="logo" />
+          <h2>Type - O - Positive</h2>
         </div>
         {React.cloneElement(this.props.children, this.props)}
         <Keyboard keyMap={keyMap} />
